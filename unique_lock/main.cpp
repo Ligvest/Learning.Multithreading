@@ -19,7 +19,7 @@ void printRect(char c) {
 }
 
 
-int main() {
+int main() { 
 	std::thread tS(printRect, '#');
 
 	std::thread tA(printRect, '*');
